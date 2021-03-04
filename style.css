@@ -1,0 +1,60 @@
+/* .grid {
+	border: 1px solid;
+	display: flex;
+	flex-wrap: wrap;
+	height: 120px;
+	width: 140px;
+}
+
+.grid div {
+	height: 20px;
+	width: 20px;
+}
+
+.player-one {
+	background-color: red;
+	border-radius: 10px;
+}
+
+.player-two {
+	background-color: blue;
+	border-radius: 10px;
+} */
+.board {
+	border: 1px solid blue;
+	display: flex;
+	flex-wrap: wrap;
+	height: 320px;
+	width: 375px;
+	background: blue;
+}
+.board div {
+	height: 50px;
+	width: 50px;
+	margin: 1.5px;
+	border-radius: 25px;
+}
+.square {
+	background: white;
+}
+.taken {
+	/*background:red !important */
+}
+.player-one {
+	background: red;
+}
+.player-two {
+	background: yellow;
+}
+.restart {
+	background: red;
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	top: 100px;
+	left: 100px;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
